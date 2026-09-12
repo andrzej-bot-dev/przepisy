@@ -51,4 +51,46 @@ window.RECIPES = [
     ],
     tags: ["dessert", "cheesecake", "high-protein", "poddawany"]
   }
+  ,
+  {
+    id: "sergiofittt-3ing-cheesecake",
+    title: "Protein Cheesecake 3 Składniki",
+    subtitle: "kvarg + jajka + kondenserad mjölk, pieczony",
+    author: "@sergiofittt",
+    platform: "tiktok",
+    sourceUrl: "https://www.tiktok.com/@sergiofittt/video/7672068547631254807",
+    addedAt: "2026-09-12",
+    image: "img/sergiofittt-cheesecake.jpg",
+    servings: 12,
+    totalWeightG: 840,
+    totals: { kcal: 1002, protein: 90, carbs: 89, fat: 32 },
+    claim: {
+      text: "cała forma ~950 kcal & ~95 g protein",
+      kcal: 950,
+      protein: 95,
+      verdict: "close",
+      note: "Nasze liczby z Willys: 1002 kcal / 90 g P — kcal +5%, białko −5%. W granicach rozsądnego błędu (zależnie od marki kvargu). Autor policzył uczciwie."
+    },
+    ingredients: [
+      { name: "Kvarg Naturell 0,2%", brand: "Garant", amount: "500 g", kcal: 300, protein: 55.0, carbs: 20.0, fat: 1.0,
+        willys: "https://www.willys.se/sok?q=kvarg%20naturell", price: 16.06, priceNote: "5/9 z opak. 900g (28,90 kr)" },
+      { name: "Ägg frigående (4 st)", brand: "Garant", amount: "4 st (~220 g)", kcal: 308, protein: 26.4, carbs: 1.1, fat: 21.3,
+        willys: "https://www.willys.se/sok?q=%C3%A4gg%2010p%20frig%C3%A5ende", price: 11.96, priceNote: "4/10 z opak. 29,90 kr" },
+      { name: "Kondenserad Mjölk (sötad)", brand: "Markomilk", amount: "120 g", kcal: 394, protein: 8.6, carbs: 67.8, fat: 9.7,
+        willys: "https://www.willys.se/sok?q=kondenserad%20mj%C3%B6lk", price: 5.69, priceNote: "120g z puszki 397g (18,83 kr) — mjölk 55% + socker 45%, dokładnie sweetened condensed milk" }
+    ],
+    steps: [
+      "Wszystko zmiksować na gładką masę",
+      "Wylać do wyłożonej formy (springform)",
+      "Piec 160°C ~50 min — brzegi ścięte, środek lekko drży",
+      "Studzić, potem min. 4h w lodówce (najlepiej całą noc)"
+    ],
+    notes: [
+      "Claim autora się broni: 950/95 vs nasze 1002/90 (±5%) — rzadkość na TikToku 👏",
+      "Ratio 9,0 g P/100 kcal — niżej niż sernik keso+whey, bo kondenserad wnosi 68 g cukru",
+      "Per 100 g: 119 kcal / 10,7 g P · 12 bitar = 84 kcal / 7,5 g P",
+      "Całość ~34 kr — najtańszy deser w kolekcji"
+    ],
+    tags: ["dessert", "cheesecake", "high-protein", "3-składnikowe", "budget"]
+  }
 ];
